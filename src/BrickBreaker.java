@@ -146,7 +146,7 @@ public class BrickBreaker extends JFrame {
 
         private void gameWon() {
             int result = JOptionPane.showOptionDialog(this,
-                    "Congratulations! You won the game! Would you like to play again?",
+                    "축하합니다! 클리어했습니다! 다시 한번 플레이하시겠습니까?",
                     "Game Won",
                     JOptionPane.YES_NO_OPTION,
                     JOptionPane.PLAIN_MESSAGE,
@@ -161,7 +161,7 @@ public class BrickBreaker extends JFrame {
 
         private void gameOver() {
             int result = JOptionPane.showOptionDialog(this,
-                    "Game Over! Would you like to restart?",
+                    "게임 종료! 다시 시작하시겠습니까?",
                     "Game Over",
                     JOptionPane.YES_NO_OPTION,
                     JOptionPane.PLAIN_MESSAGE,
